@@ -1,7 +1,7 @@
 /**
  * C03 L09
  * 
- * Conversion
+ * Demonstrate casts
  */
 public class Conversion {
 
