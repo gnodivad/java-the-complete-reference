@@ -7,4 +7,8 @@ class Box {
         System.out.print("Volume is ");
         System.out.println(width * height * depth);
     }
+
+    double computeVolume() {
+        return width * height * depth;
+    }
 }
