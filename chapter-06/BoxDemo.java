@@ -1,14 +1,6 @@
 /**
  * C06 L01
  * 
- */
-class Box {
-    double width;
-    double height;
-    double depth;
-}
-
-/**
  * This class declares an object of type Box.
  */
 public class BoxDemo {

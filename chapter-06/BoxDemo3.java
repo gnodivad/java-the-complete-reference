@@ -1,12 +1,9 @@
 /**
- * C06 L02
+ * C06 L03
  * 
+ * This program includes a method inside the box class.
  */
-
-/**
- * This program declares two Box objects.
- */
-public class BoxDemo2 {
+public class BoxDemo3 {
 
     public static void main(String[] args) {
         Box mybox1 = new Box();
@@ -21,11 +18,8 @@ public class BoxDemo2 {
         mybox2.height = 6;
         mybox2.depth = 9;
 
-        vol = mybox1.width * mybox1.height * mybox1.depth;
-        System.out.println("Volume is " + vol);
+        mybox1.volume();
 
-        vol = mybox2.width * mybox2.height * mybox2.depth;
-        System.out.println("Volume is " + vol);
-
+        mybox2.volume();
     }
 }
