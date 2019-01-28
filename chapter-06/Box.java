@@ -3,6 +3,13 @@ class Box {
     double height;
     double depth;
 
+    Box() {
+        System.out.println("Constructing Box");
+        width = 10;
+        height = 10;
+        depth = 10;
+    }
+    
     void volume() {
         System.out.print("Volume is ");
         System.out.println(width * height * depth);
