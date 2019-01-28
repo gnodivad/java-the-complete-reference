@@ -9,6 +9,12 @@ class Box {
         height = 10;
         depth = 10;
     }
+
+    Box(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
+    }
     
     void volume() {
         System.out.print("Volume is ");
